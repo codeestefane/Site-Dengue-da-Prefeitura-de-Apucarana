@@ -1,0 +1,122 @@
+#voceSabia div.imagem_voce_sabia {
+    width: 100%;
+    height: 297px;
+    background-image: url('../img/imagem_voce_sabia.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+
+#voceSabia div.fundo_voce_sabia {
+    background-color: rgba(112, 98, 90, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#voceSabia div.fundo_voce_sabia h2 {
+    margin-left: 10%;
+    color: #FFFFFF;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+}
+
+#voceSabia div.topicos_voce_sabia {
+    margin: 100px 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#voceSabia div.caixa_voce_sabia {
+    width: 100%;
+    min-height: 176px;
+    height: fit-content;
+    /* background: rgba(112, 98, 90, 0.3); */
+    background-color: rgba(136, 113, 72, 0.2);
+    border-radius: 15px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    gap: 10px;
+    transition: 0.8s all ease-in-out;
+}
+
+#voceSabia div.caixa_voce_sabia p {
+    width: 20%;
+    text-align: center; 
+    font-size: 5rem; 
+    font-weight: bold; 
+    border-radius: 10px;
+    color: #68605C;
+    /*color: rgba(112, 98, 90, 1);*/
+}
+
+#voceSabia div.caixa_voce_sabia div {
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-height: 120px;
+    border-left: 3px solid rgba(112, 98, 90, 1);
+}
+
+#voceSabia div.caixa_voce_sabia div p {
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    text-align: justify;
+    margin: auto 40px;
+    color: #000;
+}
+
+#voceSabia div.caixa_voce_sabia:hover {
+   transform: scale(1.08);
+   background-color: rgba(136, 113, 72, 0.4);
+}
+
+@media all and (max-width: 980px) {
+    #voceSabia div.fundo_voce_sabia h2 {
+        font-size: 2.5rem;
+    }
+    #voceSabia div.topicos_voce_sabia {
+        margin: 50px 10%;
+    }
+}
+
+@media all and (max-width: 780px) {
+    #voceSabia div.caixa_voce_sabia {
+        margin: 35px;
+        flex-direction: column;
+    }
+
+    #voceSabia div.caixa_voce_sabia p {
+        margin-top: 20px;
+        font-size: 3.75rem;
+    }
+
+    #voceSabia div.caixa_voce_sabia div {
+        border-top: 3px solid rgba(112, 98, 90, 1);
+        border-left: 0;
+        width: 80%;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    #voceSabia div.caixa_voce_sabia div p {
+        margin: 25px 0;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #voceSabia div.fundo_voce_sabia h2 {
+        font-size: 2.2rem;
+    }
+}

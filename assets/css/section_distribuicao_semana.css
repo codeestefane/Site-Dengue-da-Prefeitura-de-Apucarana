@@ -1,0 +1,108 @@
+#section_distribuicao_semana {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section_distribuicao_semana div.fundo_distribuicao_semana {
+    background: rgba(113, 99, 91, 0.3);
+    padding: 58.5px 0;
+}
+
+#section_distribuicao_semana div.fundo_distribuicao_semana div {
+    border-left: 4px solid #70625A;
+    margin-left: 10%;
+    height: fit-content;
+    padding: 25px 6.95% 75px 6.95%;
+}
+
+#section_distribuicao_semana div.fundo_distribuicao_semana div h3 {
+    font-size: 2rem;
+    width: 80%;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+#section_distribuicao_semana div.fundo_distribuicao_semana div p {
+    width: 80%;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    text-align: justify;
+}
+
+#section_distribuicao_semana div.warning_distribuicao_semana {
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(112, 98, 90, 0.3);
+    padding: 50px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+}
+
+#section_distribuicao_semana div.warning_distribuicao_semana div {
+    width: fit-content;
+    background-color: #FFF;
+    border-radius: 90px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 30px;
+    text-transform: uppercase;
+    animation: pulsar 2s ease-in-out infinite;
+}
+
+#section_distribuicao_semana div.warning_distribuicao_semana p {
+    text-align: center;
+
+}
+
+#section_distribuicao_semana div.warning_distribuicao_semana p span {
+    font-size: 3rem;
+}
+
+@media all and (max-width: 980px) {
+    #section_distribuicao_semana div.fundo_distribuicao_semana div h3 {
+        font-size: 1.8rem;
+    }
+
+    #section_distribuicao_semana div.warning_distribuicao_semana {
+        font-size: 1.2rem;
+    }
+
+    #section_distribuicao_semana div.warning_distribuicao_semana div {
+        font-size: 1.3rem;
+    }
+}
+
+@media all and (max-width: 780px) {
+    #section_distribuicao_semana div.warning_distribuicao_semana {
+        font-size: 1rem;
+    }
+    
+    #section_distribuicao_semana div.warning_distribuicao_semana div {
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media all and (max-width: 650px) {
+    /*#section_distribuicao_semana div.fundo_distribuicao_semana div h3 {
+        font-size: 1.5rem;
+    }*/
+
+    #section_distribuicao_semana div.warning_distribuicao_semana {
+        flex-direction: column;
+    }
+    
+    #section_distribuicao_semana div.warning_distribuicao_semana div {
+        font-size: 1.2rem;
+        margin-bottom: 60px;
+    }
+}
