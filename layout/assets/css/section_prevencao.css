@@ -1,0 +1,177 @@
+#prevencao {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.prevencao_conteudo {
+    width: 80%;
+    height: fit-content;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    /* border-left: 2px solid rgb(117, 151, 193); */
+    /*border-right: 2px solid rgb(117, 151, 193); */
+    padding: 25px 6.95%;
+    padding-top: 0;
+}
+
+#prevencao div.imagem_prevencao1 {
+    width: 100%;
+    height: 297px;
+    background-image: url('../img/prevencao1.png');
+    background-position: 50% 80%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+
+#prevencao div.fundo_prevencao {
+    /* background-color: rgb(117, 151, 193, 0.78); */
+    background-color: rgba(50, 81, 112, 0.8);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#prevencao div.fundo_prevencao h2 {
+    margin-left: 10%;
+    color: #FFFFFF;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+}
+
+#itens_prevencao {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+#itens_prevencao div.fundo_item_prevencao {
+    /*margin: 20px;*/
+    background: #E7ECF2;
+    padding: 10px;
+    /*width: calc(33.33% - 50px);*/
+    width: 300px;
+    border-radius: 15px;
+    /*max-width: 240px;
+    min-width: 240px;*/
+    display: flex;
+    flex-direction: column;
+    /* margin: 1.5% 0; */
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background 1s ease, transform 1s ease, font-weight 1s ease;
+}
+
+#itens_prevencao div.fundo_item_prevencao:hover {
+    background: #47af9e4d;
+    transform: scale(1.07);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#itens_prevencao div.fundo_item_prevencao:hover div img {
+    filter: brightness(90%) saturate(100%) sepia(50%) hue-rotate(120deg) contrast(120%);
+}
+
+#itens_prevencao div.fundo_item_prevencao div {
+    width: 100%;
+    height: 302px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#imagem_prevencao2{
+    background-image: url('../img/prevencao2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#imagem_prevencao3 {
+    background-image: url('../img/prevencao3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#imagem_prevencao4 {
+    background-image: url('../img/prevencao4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#imagem_prevencao5 {
+    background-image: url('../img/prevencao5.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#imagem_prevencao6 {
+    background-image: url('../img/prevencao6.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#imagem_prevencao7 {
+    background-image: url('../img/prevencao7.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#imagem_prevencao8 {
+    background-image: url('../img/prevencao8.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#imagem_prevencao9 {
+    background-image: url('../img/prevencao9.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#imagem_prevencao10 {
+    background-image: url('../img/prevencao10.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#itens_prevencao div.fundo_item_prevencao p {
+    font-size: 1.25rem;
+    margin: 10% auto;
+    text-align: center;
+}
+
+#itens_prevencao div.fundo_item_prevencao div img {
+    width: 65px; 
+    transition: filter 1s ease-in-out;
+}
+
+@media all and (max-width: 980px) {
+    #prevencao div.fundo_prevencao h2 {
+        font-size: 2.5rem;
+    }
+
+    #prevencao div.imagem_prevencao1 {
+        margin-bottom: 40px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #prevencao div.fundo_prevencao h2 {
+        font-size: 2.2rem;
+    }
+
+    #prevencao div.imagem_prevencao1 {
+        margin-bottom: 60px;
+    }
+}
