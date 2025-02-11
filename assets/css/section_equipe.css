@@ -158,22 +158,22 @@
     }
 }
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 480px) {
     #equipe div.container_atividades img,     #equipe div.container_atividades div {
         width: 100%;
     }
 
-    /* #equipe div.container_atividades p {
-        font-size: 1rem;
+    #equipe div.container_atividades p {
+        text-align: left;
     }
 
     #equipe div.container_funcoes div p {
-        font-size: 1rem;
+        text-align: left;
     }
 
     #equipe div.container_mensagemFinal p span {
-        font-size: 1rem;
-    } */
+        text-align: left;
+    }
 
     #equipe div.container_atividades h4 {
         font-size: 1.75rem;

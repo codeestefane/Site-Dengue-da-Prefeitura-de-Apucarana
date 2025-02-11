@@ -109,4 +109,12 @@
     #zika h3 {
         font-size: 1.6rem;
     }
+
+    #zika div.sintomas div {
+        text-align: left;
+    }
+
+    #zika div.texto_doenca p {
+        text-align: left;
+    }
 }

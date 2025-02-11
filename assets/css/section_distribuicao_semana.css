@@ -93,10 +93,6 @@
 }
 
 @media all and (max-width: 650px) {
-    /*#section_distribuicao_semana div.fundo_distribuicao_semana div h3 {
-        font-size: 1.5rem;
-    }*/
-
     #section_distribuicao_semana div.warning_distribuicao_semana {
         flex-direction: column;
     }
@@ -104,5 +100,11 @@
     #section_distribuicao_semana div.warning_distribuicao_semana div {
         font-size: 1.2rem;
         margin-bottom: 60px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #section_distribuicao_semana div.fundo_distribuicao_semana div p {
+        text-align: left;
     }
 }

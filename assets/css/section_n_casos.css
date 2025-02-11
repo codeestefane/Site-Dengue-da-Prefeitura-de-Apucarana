@@ -95,7 +95,7 @@
         font-size: 3rem;
     }
 
-    #n_casos div.resumos_numero_casos p {
-        font-size: 1.1rem;
+    #n_casos div.fundo_resumo div p {
+        text-align: left;
     }
 }

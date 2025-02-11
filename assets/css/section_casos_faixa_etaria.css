@@ -99,3 +99,9 @@
         margin-bottom: 40px;
     }
 }
+
+@media all and (max-width: 480px) {
+    #section_casos_faixa_etaria div.fundo_faixa_etaria div p {
+        text-align: left;
+    }
+}

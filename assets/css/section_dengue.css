@@ -112,4 +112,12 @@
     #dengue div.texto_doenca h3 {
         font-size: 1.6rem;
     }
+
+    #dengue div.sintomas div {
+        text-align: left;
+    }
+
+    #dengue div.texto_doenca p {
+        text-align: left;
+    }
 }
