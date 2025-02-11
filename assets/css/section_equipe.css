@@ -163,7 +163,7 @@
         width: 100%;
     }
 
-    #equipe div.container_atividades p {
+    /* #equipe div.container_atividades p {
         font-size: 1rem;
     }
 
@@ -173,10 +173,10 @@
 
     #equipe div.container_mensagemFinal p span {
         font-size: 1rem;
-    }
+    } */
 
     #equipe div.container_atividades h4 {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         padding-bottom: 5%;
     }
 
@@ -185,7 +185,7 @@
     }
 
     #equipe div.fundo_equipe h2 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     #equipe div.atividades_realizadas h4 {

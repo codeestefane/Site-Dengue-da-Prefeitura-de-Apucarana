@@ -135,13 +135,13 @@
     transform: scale(1.08);
 }
 
-#mitosVerdades .container:hover .texto_sentenca .circulo_numeracao {
+/* #mitosVerdades .container:hover .texto_sentenca .circulo_numeracao {
     background: rgba(255, 0, 0, 0.8);
 }
 
 #mitosVerdades .container:hover .texto_sentenca.texto_sentenca_verdade .circulo_numeracao {
     background: rgba(71, 175, 158, 1);
-}
+} */
 
 @media all and (max-width: 1000px) {
     #mitosVerdades .texto_sentenca .circulo_numeracao {
@@ -156,16 +156,16 @@
 }
 
 @media all and (max-width: 450px) {
-    #mitosVerdades .container {
+    /* #mitosVerdades .container {
         font-size: 1rem;
-    }
+    } */
 
     #mitosVerdades .texto_mito, #mitosVerdades .texto_verdade {
         font-size: 1.25rem;
     }
 
     #mitosVerdades .texto_sentenca .circulo_numeracao {
-        font-size: 2rem;
+        font-size: 2.2rem;
         left: calc(50% - 37.5px);
         top: -37.5px;
         width: 75px;
@@ -173,6 +173,6 @@
     }
 
     #mitosVerdades div.fundo_mitosVerdades h2 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 }

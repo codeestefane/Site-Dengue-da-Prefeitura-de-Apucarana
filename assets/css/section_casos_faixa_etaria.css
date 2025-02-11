@@ -91,6 +91,7 @@
     }*/
 
     #section_casos_faixa_etaria div.warning_faixa_etaria {
+        font-size: 1.1rem;
         flex-direction: column;
     }
     
